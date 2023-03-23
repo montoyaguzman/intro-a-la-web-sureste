@@ -1,0 +1,44 @@
+body{
+    background-color: #caf0f8;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: #03045e;
+    color: azure;
+    padding: 10px 20px;
+    margin: 50px;
+}
+
+.secciones{
+    width: 100%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin: 25px;
+    background-color: #00b4d8;
+    padding: 25px;
+    border-radius: 17px;
+    box-shadow: 5px 5px 15px gray;
+    border: 1px solid gray;
+}
+
+.beach{
+    width: 250px;
+    height: 150px;
+    border-radius: 17px;
+}
+
+.description{
+    width: 250px;
+}
+
+
+
+#cuerpo{
+    background-color: #90e0ef;
+    padding: 20px;
+    margin: 0 20px;
+}
