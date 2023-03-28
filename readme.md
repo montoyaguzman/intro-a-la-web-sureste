@@ -208,11 +208,11 @@ Integrated Development Enviroment (IDE) es un software para el diseño de aplica
 
 1. Comparador de cambios (esquina superior derecha).
 
-![1676839597640](image/readme/1676839597640.png)
+![1676839597640](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676839597640.png)
 
 2. Commits en vscode.
 
-![1676839824330](image/readme/1676839824330.png)
+![1676839824330](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676839824330.png)
 
 3. Buscar coincidencias de texto ( ctrl / command + f ).
 
@@ -224,12 +224,12 @@ Integrated Development Enviroment (IDE) es un software para el diseño de aplica
 
 5. Ir a la configuración (ajustes) de vscode.
 
-![1676839756400](image/readme/1676839756400.png)
+![1676839756400](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676839756400.png)
 
 6. Abrir la terminal de comandos de vscode ( ctrl / command + j ).
 7. Cambiar la terminal de vscode.
 
-   ![1676840080400](image/readme/1676840080400.png)
+   ![1676840080400](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676840080400.png)
 
 #### **VSC como editor predeterminado para git**
 
