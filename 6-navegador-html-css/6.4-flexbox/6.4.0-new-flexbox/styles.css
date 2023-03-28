@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    padding: 30px;
+    margin: 20px;
+    border: solid crimson;
+    background-color: antiquewhite;
+    /* EJE PRINCIPAL POR DEFECTO ES ROW, SI LO MUEVEN COLUMN, ES COLUMN  */
+    flex-direction: row;
+    /* FUNCIONA PARA EL EJE PRINCIPAL column, row-reverse, column-reverse */
+    justify-content: center;
+    /* FUNCIONA PARA EL EJE SECUNDARIO end, space-around, space-between, space-evenly */
+    align-items: center;
+    /* Fluyen a la siguiente linea cuando ya no caben */
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.item {
+    padding: 10px;
+    margin: 5px;
+    border: solid black;
+    background-color: pink;
+}
+
+.special-item {
+    order: 2;
+}
+
+.other-special-item {
+    order: 1;
+}
