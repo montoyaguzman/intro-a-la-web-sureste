@@ -23,12 +23,12 @@
 
 **Estructura de carpetas sugerida**
 
-* kata-1
-  * intro-web-gen24c
-  * juanito-intro-web-gen24c
-* kata-2
-  * intro-js
-  * juanito-intro-js
+- kata-1
+  - intro-web-gen24c
+  - juanito-intro-web-gen24c
+- kata-2
+  - intro-js
+  - juanito-intro-js
 
 ### Redes e internet
 
@@ -40,7 +40,7 @@ Es un conjunto de dispositivos informaticos y de software conectados entre sí p
 
 #### **¿Qué es Internet?**
 
-Es una  **red de computadoras interconectadas a nivel mundial en forma de telaaraña** . Consiste de servidores (o "nodos") que proveen información a a todo el mundo a través de las redes de telefonía y cable.
+Es una **red de computadoras interconectadas a nivel mundial en forma de telaaraña** . Consiste de servidores (o "nodos") que proveen información a a todo el mundo a través de las redes de telefonía y cable.
 
 #### ¿Qué es la web?
 
@@ -54,9 +54,9 @@ En una arquitectura Cliente-Servidor existe un **servidor** y **múltiples clien
 
 El cliente solo es una capa para representar los datos y se detonan acciones para modificar el estado del servidor, mientras que el servidor es el que hace todo el trabajo pesado.
 
-![1676592541588](image/readme/1676592541588.png)
+![1676592541588](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676592541588.png)
 
-NOTA: Considere que el modelo cliente servidor es una abstraccion. Cualquier cosa que solicite recursos puede ser considerada un cliente (computadora, celular, el navegador, una pagina web, codigo JS) y cualquier cosa que responda información o ponga a disposición un servicio es un servidor (computadora, celular, un API, etc.)
+**NOTA:** Considere que el modelo cliente servidor es una abstraccion. Cualquier cosa que solicite recursos puede ser considerada un cliente (computadora, celular, el navegador, una pagina web, codigo JS) y cualquier cosa que responda información o ponga a disposición un servicio es un servidor (computadora, celular, un API, etc.)
 
 #### **Navegadores web**
 
@@ -64,9 +64,9 @@ Es un programa que permite ver la información que contiene una página web. El 
 
 Un navegador interpreta 3 lenguajes para renderizar una pagina:
 
-* **Html:** Para definir la estructura.
-* **CSS:** Para estilizar el sitio.
-* **JS:** Para volver funcional e interactiva la pagina web.
+- **Html:** Para definir la estructura.
+- **CSS:** Para estilizar el sitio.
+- **JS:** Para volver funcional e interactiva la pagina web.
 
 #### **¿Cómo funcionan los sitios web?**
 
@@ -78,10 +78,10 @@ Un ISP (Internet Service Provider) generalmente es una empresa dedicada a ofrece
 
 **Ejemplos**
 
-* Izzy.
-* Telmex.
-* Megacable.
-* Axtel.
+- Izzy.
+- Telmex.
+- Megacable.
+- Axtel.
 
 #### **Dominio**
 
@@ -89,10 +89,10 @@ Un **dominio web** es el nombre único que recibe un sitio web en internet. En o
 
 A continuacion se muestran las partes de una url, donde se observa que parte corresponde al dominio.
 
-![1676424790021](image/readme/1676424790021.png)
+![1676424790021](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676424790021.png)
 
-* **Protocolo:** Un protocolo es el conjunto de reglas que se establecen para el uso de una determinada tecnologia. El protocolo http/https son protocolos para la comunicacion en internet (transferencia de hypertexto).
-* **Path:** Es una ruta donde se ubican archivos en un servidor.
+- **Protocolo:** Un protocolo es el conjunto de reglas que se establecen para el uso de una determinada tecnologia. El protocolo http/https son protocolos para la comunicacion en internet (transferencia de hypertexto).
+- **Path:** Es una ruta donde se ubican archivos en un servidor.
 
 #### **Hosting**
 
@@ -104,12 +104,12 @@ Una direccion IP (Internet Protocol) es la representacion de un dominio mediante
 
 **Tipos de IP**
 
-* **Privadas:** Direccion IP que identifica a un dispositivo en una red local (196.180.1.2).
-* **Publicas:** Direccion IP que nos identifica en internet (231.138.1.197).
+- **Privadas:** Direccion IP que identifica a un dispositivo en una red local (196.180.1.2).
+- **Publicas:** Direccion IP que nos identifica en internet (231.138.1.197).
 
 #### **Protocolo de configuracion dinámica de host**
 
-**Dynamic Host Configuration Protocol (DHCP)**  asigna automáticamente direcciones IP a los equipos de la red. Todo dispositivo en la red tiene una **IP privada**, si esta conectado a internet tambien tendra una **IP pública**.
+**Dynamic Host Configuration Protocol (DHCP)** asigna automáticamente direcciones IP a los equipos de la red. Todo dispositivo en la red tiene una **IP privada**, si esta conectado a internet tambien tendra una **IP pública**.
 
 #### **Servidor de nombre de dominio**
 
@@ -123,44 +123,44 @@ Tecnologías y herramientas para el desarrollo (programación) web
 
 #### **Front end**
 
-* Lenguajes
-  * HTML (De marcado de hypertexto).
-  * CSS (De estilos en cascada).
-  * JavaScript (Lenguaje de programacion).
-* Frameworks
-  * React.
-  * Angular.
-  * Vuejs.
+- Lenguajes
+  - HTML (De marcado de hypertexto).
+  - CSS (De estilos en cascada).
+  - JavaScript (Lenguaje de programacion).
+- Frameworks
+  - React.
+  - Angular.
+  - Vuejs.
 
 #### **Back end**
 
-* Lenguajes de programacion
-  * Node.
-  * Java.
-  * Php.
-  * Python.
-  * C#.
-  * Go.
-* Frameworks
-  * Express.
-  * Spring.
-  * Laravel.
-  * Django.
-  * .NET.
-  * Gin.
+- Lenguajes de programacion
+  - Node.
+  - Java.
+  - Php.
+  - Python.
+  - C#.
+  - Go.
+- Frameworks
+  - Express.
+  - Spring.
+  - Laravel.
+  - Django.
+  - .NET.
+  - Gin.
 
 #### **Gestores de base de datos**
 
-* SQL
-  * PostgresSQL.
-  * MySQL.
-  * SQLServer.
-  * Oracle.
-  * MariaDB.
-* NO SQL
-  * MongoDB.
-  * DynamoDB.
-  * Cassandra.
+- SQL
+  - PostgresSQL.
+  - MySQL.
+  - SQLServer.
+  - Oracle.
+  - MariaDB.
+- NO SQL
+  - MongoDB.
+  - DynamoDB.
+  - Cassandra.
 
 #### **¿Qué es frontend?**
 
@@ -180,54 +180,56 @@ Es un editor de código fuente desarrollado por Microsoft. Es software libre y m
 
 #### **Editor de texto**
 
-Es un [programa informático](https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico "Programa informático") que permite crear y modificar [archivos digitales](https://es.wikipedia.org/wiki/Archivo_(inform%C3%A1tica)) compuestos únicamente por textos sin formato, conocidos comúnmente como [archivos de texto](https://es.wikipedia.org/wiki/Archivo_de_texto "Archivo de texto") o “texto plano”. En ocasiones tienen algunas herramientas para codificar, sin embargo se recomiendan para editar textos simple y buscar algun IDE si lo que se requiere es programar.
+Es un [programa informático](https://es.wikipedia.org/wiki/Programa_inform%C3%A1tico "Programa informático") que permite crear y modificar [archivos digitales](<https://es.wikipedia.org/wiki/Archivo_(inform%C3%A1tica)>) compuestos únicamente por textos sin formato, conocidos comúnmente como [archivos de texto](https://es.wikipedia.org/wiki/Archivo_de_texto "Archivo de texto") o “texto plano”. En ocasiones tienen algunas herramientas para codificar, sin embargo se recomiendan para editar textos simple y buscar algun IDE si lo que se requiere es programar.
 
 #### **Entorno de desarrollo Integrado**
 
 Integrated Development Enviroment (IDE) es un software para el diseño de aplicaciones que combina herramientas del desarrollador comunes en una sola interfaz gráfica de usuario (GUI). Generalmente, un IDE cuenta con las siguientes características:
 
-* **Editor de código fuente** : Editor de texto que ayuda a escribir el código de software con funciones como el resaltado de la sintaxis con indicaciones visuales, el relleno automático específico para el lenguaje y la comprobación de errores a medida que se escribe el código.
-* **Automatización de las compilaciones locales**: Herramientas que automatizan las tareas sencillas y repetitivas como parte de la creación de una compilación local del software para que use el desarrollador, como la compilación del código fuente de la computadora en código binario, el empaquetado de ese código y la ejecución de pruebas automatizadas.
-* **Depurador** : Programa que sirve para probar otros programas y mostrar la ubicación de un error en el código original de forma gráfica.
-* **Extensiones / Plugins:** Son complementos para el IDE para ayudarnos con tareas como tener una terminal, autocompletar codigo, cambiar iconos, leer archivos especiales, etc.
+- **Editor de código fuente** : Editor de texto que ayuda a escribir el código de software con funciones como el resaltado de la sintaxis con indicaciones visuales, el relleno automático específico para el lenguaje y la comprobación de errores a medida que se escribe el código.
+- **Automatización de las compilaciones locales**: Herramientas que automatizan las tareas sencillas y repetitivas como parte de la creación de una compilación local del software para que use el desarrollador, como la compilación del código fuente de la computadora en código binario, el empaquetado de ese código y la ejecución de pruebas automatizadas.
+- **Depurador** : Programa que sirve para probar otros programas y mostrar la ubicación de un error en el código original de forma gráfica.
+- **Extensiones / Plugins:** Son complementos para el IDE para ayudarnos con tareas como tener una terminal, autocompletar codigo, cambiar iconos, leer archivos especiales, etc.
 
 #### **Extensiones recomendadas para vscode**
 
-* Auto Rename Tag.
-* Color info.
-* Diff.
-* EsLint.
-* Live Share.
-* Office Viewer (Markdown Editor)
-* Peacock.
-* vscode-pdf.
-* Git Graph.
-* Git Blame.
+- Auto Rename Tag.
+- Color info.
+- Diff.
+- EsLint.
+- Live Share.
+- Office Viewer (Markdown Editor)
+- Peacock.
+- vscode-pdf.
+- Git Graph.
+- Git Blame.
 
 #### Herramientas de vscode que debes conocer
 
 1. Comparador de cambios (esquina superior derecha).
 
-![1676839597640](image/readme/1676839597640.png)
+![1676839597640](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676839597640.png)
 
 2. Commits en vscode.
 
-![1676839824330](image/readme/1676839824330.png)
+![1676839824330](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676839824330.png)
 
 3. Buscar coincidencias de texto ( ctrl / command + f ).
 
    try!!!
+
 4. Abrir archivos por nombre( ctrl / command + p ).
 
    try!!!
+
 5. Ir a la configuración (ajustes) de vscode.
 
-![1676839756400](image/readme/1676839756400.png)
+![1676839756400](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676839756400.png)
 
 6. Abrir la terminal de comandos de vscode ( ctrl / command + j ).
 7. Cambiar la terminal de vscode.
 
-   ![1676840080400](image/readme/1676840080400.png)
+   ![1676840080400](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676840080400.png)
 
 #### **VSC como editor predeterminado para git**
 
@@ -247,16 +249,16 @@ regresar a la terminal y presionar ctrl + c
 
 #### Lecturas recomendadas
 
-* [IT Next - Atajos en VS Code](https://itnext.io/vs-code-shortcuts-to-code-like-youre-playing-a-piano-part-2-c27202ea7ea1).
-* [Andy Bell - Custom Properties](https://andy-bell.co.uk/my-favourite-3-lines-of-css/).
-* [Andy Bell - How the CSS box-sizing property works](https://andy-bell.co.uk/how-the-css-box-sizing-property-works/).
-* [Cambia de HEX a RGB a HSL in segundos](https://www.kevinpowell.co/article/change-from-hex-to-rgb-to-hsl-in-seconds-with-vs-code/).
+- [IT Next - Atajos en VS Code](https://itnext.io/vs-code-shortcuts-to-code-like-youre-playing-a-piano-part-2-c27202ea7ea1).
+- [Andy Bell - Custom Properties](https://andy-bell.co.uk/my-favourite-3-lines-of-css/).
+- [Andy Bell - How the CSS box-sizing property works](https://andy-bell.co.uk/how-the-css-box-sizing-property-works/).
+- [Cambia de HEX a RGB a HSL in segundos](https://www.kevinpowell.co/article/change-from-hex-to-rgb-to-hsl-in-seconds-with-vs-code/).
 
 ### Terminal
 
-La terminal o consola es una forma generalizada de llamar a la interfaz de línea de comandos: una pantalla. Sirve para escribir comandos  con los que ordenamos al sistema realizar acciones concretas.
+La terminal o consola es una forma generalizada de llamar a la interfaz de línea de comandos: una pantalla. Sirve para escribir comandos con los que ordenamos al sistema realizar acciones concretas.
 
-* [Guía para la Terminal enfocado a desarrolladores Frontend](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/).
+- [Guía para la Terminal enfocado a desarrolladores Frontend](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/).
 
 **Path**
 
@@ -383,10 +385,10 @@ git commit -m "conventionalCommitScope: mi mensaje"
 
 ```
 # ver rama en la que se encuentra el head
-git branch 
+git branch
 
 # crea una rama nueva
-git branch newBranchName 
+git branch newBranchName
 
 # cambiarse a una rama con el nombre nombreRama
 git checkout branchName
@@ -395,7 +397,7 @@ git checkout branchName
 git checkout -b newBranchName
 
 # crear y cambiarse a una nueva rama
-git switch -c newBranchName 
+git switch -c newBranchName
 
 # eliminar una rama
 git branch -D branchName
@@ -455,13 +457,13 @@ feat: add hat wobble
 
 **Tipos principales**
 
-* **feat:** Nuevas funcionalidades.
-* **chore:** Cosas que no aportan un requerimiento funcional, generalmente son requerimientos no funcionales.
-* **fix:** Corrección de errores.
-* **docs:** Documentación o comentarios.
-* **style:** Cambios de legibilidad o formateo de código que no afecta a funcionalidad.
-* **refactor:** Modificaciones de código o arquitectura que no corrige errores ni añade funcionalidad, pero mejora la escritura y optimiza la funcionalidad.
-* **test:** Para añadir o arreglar tests.
+- **feat:** Nuevas funcionalidades.
+- **chore:** Cosas que no aportan un requerimiento funcional, generalmente son requerimientos no funcionales.
+- **fix:** Corrección de errores.
+- **docs:** Documentación o comentarios.
+- **style:** Cambios de legibilidad o formateo de código que no afecta a funcionalidad.
+- **refactor:** Modificaciones de código o arquitectura que no corrige errores ni añade funcionalidad, pero mejora la escritura y optimiza la funcionalidad.
+- **test:** Para añadir o arreglar tests.
 
 **Referencias**
 
@@ -711,80 +713,74 @@ La especificidad en CSS es un grupo de reglas aplicadas a los selectores CSS par
 
 #### Displays
 
-![1676843355531](image/readme/1676843355531.png)
+![1676843355531](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676843355531.png)
 
 #### **Positions**
 
-![1676844521540](image/readme/1676844521540.png)
+![1676844521540](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676844521540.png)
 
-![1676843286033](image/readme/1676843286033.png)
+![1676843286033](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676843286033.png)
 
 #### Unidades
 
 Las medidas en CSS determinan el tamaño de los elementos, existen de do tipos:
 
-* **Absolutas:** Son medidas que no están referenciadas a ninguna otra unidad, es decir, no dependen de un valor de referencia. Son unidades de medidas definidas por la física, como el  **píxel** , centímetro, metro, etc.
-* Relativas: Se calculan en base a otra unidad de medida definida, por ejemplo **em** y **rem**. l uso de ellas es más apropiado para que podamos hacer ajustes en diferentes dispositivos asegurando un layout consistente y fluido en distintas medias.
+- **Absolutas:** Son medidas que no están referenciadas a ninguna otra unidad, es decir, no dependen de un valor de referencia. Son unidades de medidas definidas por la física, como el **píxel** , centímetro, metro, etc.
+- Relativas: Se calculan en base a otra unidad de medida definida, por ejemplo **em** y **rem**. l uso de ellas es más apropiado para que podamos hacer ajustes en diferentes dispositivos asegurando un layout consistente y fluido en distintas medias.
 
-![img](https://yaxchemanrique.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa3c78c1a-854a-4be7-beab-3f989c9b55c4%2FUntitled.png?id=c245ec7a-24d4-467d-b18c-44cd991b815d&table=block&spaceId=3aca2aaa-ada9-4de7-b26a-1052031cccd5&width=2000&userId=&cache=v2)
-
-![](https://yaxchemanrique.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa3c78c1a-854a-4be7-beab-3f989c9b55c4%2FUntitled.png?id=c245ec7a-24d4-467d-b18c-44cd991b815d&table=block&spaceId=3aca2aaa-ada9-4de7-b26a-1052031cccd5&width=2000&userId=&cache=v2)
-
-![](https://yaxchemanrique.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4b962e8a-ead9-4dd4-8b4d-2abe80cf31a8%2FUntitled.png?id=186ed1b1-509e-4b63-b9e0-45804418e7d2&table=block&spaceId=3aca2aaa-ada9-4de7-b26a-1052031cccd5&width=2000&userId=&cache=v2)
-
-![](https://yaxchemanrique.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe9cc5455-3311-417c-90a2-0abb14a1cef1%2FUntitled.png?id=7015803d-3ca5-491a-af4b-b0139dd399b3&table=block&spaceId=3aca2aaa-ada9-4de7-b26a-1052031cccd5&width=2000&userId=&cache=v2)
+![img](https://camo.githubusercontent.com/61d89c82b16ca8e25f6bf130b634aea489262f274f5c2e0357e577bfe15bc512/68747470733a2f2f7961786368656d616e72697175652e6e6f74696f6e2e736974652f696d6167652f687474707325334125324625324673332d75732d776573742d322e616d617a6f6e6177732e636f6d2532467365637572652e6e6f74696f6e2d7374617469632e636f6d25324661336337386331612d383534612d346265372d626561622d336639383963396235356334253246556e7469746c65642e706e673f69643d63323435656337612d323464342d343637642d623138632d343463643939316238313564267461626c653d626c6f636b26737061636549643d33616361326161612d616461392d346465372d623236612d3130353230333163636364352677696474683d32303030267573657249643d2663616368653d7632)
 
 [Guia de unidades en CSS](https://www.aluracursos.com/blog/guia-de-unidades-en-css)
 
 #### Listado de propiedades mas usadas
 
-* [¿Conoces cuáles son las propiedades mas utilizadas en CSS?](https://blog.mgpanel.org/post/-conoces-cuales-son-las-propiedades-mas-utilizadas-en-css-).
+- [¿Conoces cuáles son las propiedades mas utilizadas en CSS?](https://blog.mgpanel.org/post/-conoces-cuales-son-las-propiedades-mas-utilizadas-en-css-).
 
 ![Para aprender CSS desde cero debes conocer la lista de propiedades CSS](https://ebweb.es/wp-content/uploads/2017/04/ayuda-aprender-css-propiedades-valores.png)
 
 ### Flexbox
 
-![1676843097444](image/readme/1676843097444.png)
+![1676843097444](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676843097444.png)
 
 [Video explicativo de flexbox](https://www.youtube.com/watch?v=EVBlLkfh2V0&t=1917s)
 
 ### CSS Grid
 
-![1676843110002](image/readme/1676843110002.png)
+![1676843110002](https://github.com/montoyaguzman/intro-web-gen24c/raw/develop/image/readme/1676843110002.png)
 
 [Video explicativo de css grid](https://www.youtube.com/watch?v=Fj6BGtNvXIc)
 
 ### Responsive design
 
-**E****s** **una ****técnica** de diseño web **que busca** **la correcta visualización de una misma página en distintos dispositivos.** Desde ordenadores de escritorio a tablets y móviles.
+Es una **técnica** **de diseño** web que busca **la correcta visualización de una misma página en distintos dispositivos.** Desde ordenadores de escritorio a tablets y móviles.
 
 #### Técnicas de diseño responsivo
 
-* Uso de viewport en la etiqueta metatag.
-* Uso de Media Queries.
-* Uso de Max-Width y Min-Width.
-* Uso de medidas relativas.
-* Tamaño de fuente en un diseño responsive.
-* [Otras técnicas](https://www.ondho.com/las-9-tecnicas-para-hacer-tu-sitio-web-100-responsive/).
+- Uso de viewport en la etiqueta metatag.
+- Uso de Media Queries.
+- Uso de Max-Width y Min-Width.
+- Uso de medidas relativas.
+- Tamaño de fuente en un diseño responsive.
+- [Otras técnicas](https://www.ondho.com/las-9-tecnicas-para-hacer-tu-sitio-web-100-responsive/).
 
 #### **Ventajas**
 
-* Incremento en el número de visitas.
-* Integra todos tus servicios en un solo sitio web.
-* Incrementa la visibilidad para los buscadores.
-* Ahorra tiempo, no es necesario desarrollar aplicaciones distintas por dispositivo.
-* Es más sencillo administrar tu sitio.
-* Los diseños responsivos son más sencillos de mantener ya que no involucran ningún componente del lado del servidor.
-* Solo hay que modificar el CSS.
+- Incremento en el número de visitas.
+- Integra todos tus servicios en un solo sitio web.
+- Incrementa la visibilidad para los buscadores.
+- Ahorra tiempo, no es necesario desarrollar aplicaciones distintas por dispositivo.
+- Es más sencillo administrar tu sitio.
+- Los diseños responsivos son más sencillos de mantener ya que no involucran ningún componente del lado del servidor.
+- Solo hay que modificar el CSS.
 
 #### **Media query**
 
 Es una regla o conjunto de reglas que se introducen en una hoja de estilo CSS con el objetivo de definir propiedades específicas para distintos tipos de pantallas.
 
-* [Media Queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries).
-* [Capitulo 9 Media queries](https://www.arkaitzgarro.com/css3/capitulo-9.html).
-* [Guía de diseño responsivo (2023)](https://ishadeed.com/article/responsive-design/).
-* [Diseño responsivo](https://web.dev/new-responsive/).
+- [Media Queries](https://developer.mozilla.org/es/docs/Web/CSS/Media_Queries/Using_media_queries).
+- [Capitulo 9 Media queries](https://www.arkaitzgarro.com/css3/capitulo-9.html).
+- [Guía de diseño responsivo (2023)](https://ishadeed.com/article/responsive-design/).
+- [Diseño responsivo](https://web.dev/new-responsive/).
 
 ### Best practices
 
@@ -824,19 +820,19 @@ html {
 ```
 
 4. [ ] Utilizar las etiquetas para la finalidad que fueron creadas. Esto es por 2 razones:
-    *  Mejor legibilidad de código.
-    *  SEO del sitio.
+   - Mejor legibilidad de código.
+   - SEO del sitio.
 
 #### Nomenclaturas
 
-* [Naming Conventions - BEM](https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/).
-* [Naming Conventions - by Scaler](https://www.scaler.com/topics/css-class-naming-convention/).
-* [CUBE -  Composition Utility Block Exception](https://cube.fyi).
-* [BEM - Block, Element, Modifier](https://en.bem.info/methodology/).
+- [Naming Conventions - BEM](https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/).
+- [Naming Conventions - by Scaler](https://www.scaler.com/topics/css-class-naming-convention/).
+- [CUBE - Composition Utility Block Exception](https://cube.fyi).
+- [BEM - Block, Element, Modifier](https://en.bem.info/methodology/).
 
 #### Usabilidad
 
-* [Usabilidad web: qué es y 6 recomendaciones para mejorarla](https://www.inboundcycle.com/diccionario-marketing-online/usabilidad-web)
+- [Usabilidad web: qué es y 6 recomendaciones para mejorarla](https://www.inboundcycle.com/diccionario-marketing-online/usabilidad-web)
 
 ### Proyecto del módulo
 
@@ -844,177 +840,177 @@ Se encuentra en google drive...
 
 ### Glosario
 
-* **Buena práctica:** Es una actividad que se ha demostrado que funciona bien y produce buenos resultados, y, por lo tanto, se recomienda como modelo.
-* **Carpeta home:** carpeta de su usuario /Users/montoyitag (~/)
-* **Carpeta raíz:** Es la base de nuestro disco duro. Por ejemplo: disco C:\ o en linux /
-* **Cliente:** Es quien solicita información dentro de un sistema informático.
-* **DNS:** Es un tipo de servidor de redes de computadora que se encarga de convertir direcciones web en dominios IP y viceversa. Ejemplo: 8.8.8.8 => www.google.com
-* **Dominio:**  Es una dirección web compuesta por un nombre de sitio web y una extensión de dominio. Ejemplo: google.com
-* **Dummy:** Es un dato o elemento de prueba, sirve para simular datos.
-* **Estándar:** Es un patrón o modelo a seguir, generalmente derivado de un documento o certificación.
-* **Hosting:** Un hosting  **es un servicio de alojamiento para páginas web bajo un servidor** .
-* **Internet:** Red conformada por todas las redes del mundo para comunicarse y compartir información.
-* **Ip:** La dirección IP es una etiqueta numérica, por ejemplo "192.0.10.1" que identifica, de manera lógica y jerárquica, a una interfaz en la red. Existen IP públicas y IP privadas.
-* **Kernel:** El kernel es el núcleo de un sistema operativo y, por tanto, la interfaz (middleware) entre el software y el hardware.
-* **Mockup:** En diseño es un bosquejo o representación de una vista o maqueta, en programación es información de prueba.
-* **Path:** Es una ruta o dirección donde se encuentra alojado un recurso en un sistema de archivos. Existen rutas relativas como ../../my-docs o absolutas como C:\users\juan\Documents\tarea\tesis.doc
-* **Plugin:** Software pequeño que sirve como complemento de otro para un fin en específico.
-* **Proceso:** Cualquier tarea que ocurre en nuestro informático.
-* **Proceso en segundo plano:** Es un proceso en el que el usuario no tiene que hacer algo para que suceda.
-* **Prototipo:** Es una representación aparente pero concreta de parte o la totalidad de una idea de negocio o sobre un producto o servicio.
-* **Puerto:** un lugar donde se abre una conexión para acceder a un servicio.
-* **Requerimiento funcional:** Son features que el usuario o negocio requieren para su proyecto de software. Aportan un valor operativo.
-* **Requerimiento no funcional:** Son features que no aportan un valor operativo pero si son requeridos para que el software funcione correctamente (seguridad, despliegue, pruebas, etc.).
-* **Red de computadoras:** Conjunto de computadoras interconectadas entre sí para compartir datos y servicios.
-* **Scaffolding:** Estructura de carpetas y archivos de un proyecto de desarrollo.
-* **Servidor:** Es una instancia fisica o lógica que responde peticiones (request).
-* **Sistema operativo:** Es el software que coordina y dirige todos los servicios y aplicaciones que utiliza el usuario en una computadora.
-* **URL:** Es una dirección web compuesta por al menos el protocolo, dominio y ruta.
-* **Viewport:** En términos de navegadores web, se refiere a la parte del documento que usted está viendo en el momento, es el ancho y alto de navegador en un momento del tiempo.
-* **Web:** Conjunto de información que se encuentra en una dirección determinada de internet.
-* **Wireframe:** Es una representación visual de un sitio web.
-* **World Wide Wibe:** Es un sistema que funciona a través de internet, por el cual se puede transmitir contenido basado en estándares web.
+- **Buena práctica:** Es una actividad que se ha demostrado que funciona bien y produce buenos resultados, y, por lo tanto, se recomienda como modelo.
+- **Carpeta home:** carpeta de su usuario /Users/montoyitag (~/)
+- **Carpeta raíz:** Es la base de nuestro disco duro. Por ejemplo: disco C:\ o en linux /
+- **Cliente:** Es quien solicita información dentro de un sistema informático.
+- **DNS:** Es un tipo de servidor de redes de computadora que se encarga de convertir direcciones web en dominios IP y viceversa. Ejemplo: 8.8.8.8 => www.google.com
+- **Dominio:** Es una dirección web compuesta por un nombre de sitio web y una extensión de dominio. Ejemplo: google.com
+- **Dummy:** Es un dato o elemento de prueba, sirve para simular datos.
+- **Estándar:** Es un patrón o modelo a seguir, generalmente derivado de un documento o certificación.
+- **Hosting:** Un hosting **es un servicio de alojamiento para páginas web bajo un servidor** .
+- **Internet:** Red conformada por todas las redes del mundo para comunicarse y compartir información.
+- **Ip:** La dirección IP es una etiqueta numérica, por ejemplo "192.0.10.1" que identifica, de manera lógica y jerárquica, a una interfaz en la red. Existen IP públicas y IP privadas.
+- **Kernel:** El kernel es el núcleo de un sistema operativo y, por tanto, la interfaz (middleware) entre el software y el hardware.
+- **Mockup:** En diseño es un bosquejo o representación de una vista o maqueta, en programación es información de prueba.
+- **Path:** Es una ruta o dirección donde se encuentra alojado un recurso en un sistema de archivos. Existen rutas relativas como ../../my-docs o absolutas como C:\users\juan\Documents\tarea\tesis.doc
+- **Plugin:** Software pequeño que sirve como complemento de otro para un fin en específico.
+- **Proceso:** Cualquier tarea que ocurre en nuestro informático.
+- **Proceso en segundo plano:** Es un proceso en el que el usuario no tiene que hacer algo para que suceda.
+- **Prototipo:** Es una representación aparente pero concreta de parte o la totalidad de una idea de negocio o sobre un producto o servicio.
+- **Puerto:** un lugar donde se abre una conexión para acceder a un servicio.
+- **Requerimiento funcional:** Son features que el usuario o negocio requieren para su proyecto de software. Aportan un valor operativo.
+- **Requerimiento no funcional:** Son features que no aportan un valor operativo pero si son requeridos para que el software funcione correctamente (seguridad, despliegue, pruebas, etc.).
+- **Red de computadoras:** Conjunto de computadoras interconectadas entre sí para compartir datos y servicios.
+- **Scaffolding:** Estructura de carpetas y archivos de un proyecto de desarrollo.
+- **Servidor:** Es una instancia fisica o lógica que responde peticiones (request).
+- **Sistema operativo:** Es el software que coordina y dirige todos los servicios y aplicaciones que utiliza el usuario en una computadora.
+- **URL:** Es una dirección web compuesta por al menos el protocolo, dominio y ruta.
+- **Viewport:** En términos de navegadores web, se refiere a la parte del documento que usted está viendo en el momento, es el ancho y alto de navegador en un momento del tiempo.
+- **Web:** Conjunto de información que se encuentra en una dirección determinada de internet.
+- **Wireframe:** Es una representación visual de un sitio web.
+- **World Wide Wibe:** Es un sistema que funciona a través de internet, por el cual se puede transmitir contenido basado en estándares web.
 
 ### Path sugerido
 
-* Entender como funciona a alto nivel el internet y el navegador.
-* Repaso de herramientas y shorcuts de vscode.
-* Comandos de terminal.
-* Entendimiento del funcionamiento de git (staging area, working directory y repo local).
-* Repaso de comandos git (stage y unstaged commits, conexion remoto remoto, subir y bajar cambios, crear y bajar ramas, moverse entre commits).
-* Html y css (leer la documentación).
-* Investigar buenas prácticas de diseño web.
-* **Siguiente kata:**
-  * Leer sobre lógica de programación (diagramas de flujo y pseudocodigo).
-  * Documentación de JavaScript.
-  * Repasa, repite, prácticar, empaparse de todos lados.
-  * Formarse un criterio propio y estar dispuesto a reaprender.
+- Entender como funciona a alto nivel el internet y el navegador.
+- Repaso de herramientas y shorcuts de vscode.
+- Comandos de terminal.
+- Entendimiento del funcionamiento de git (staging area, working directory y repo local).
+- Repaso de comandos git (stage y unstaged commits, conexion remoto remoto, subir y bajar cambios, crear y bajar ramas, moverse entre commits).
+- Html y css (leer la documentación).
+- Investigar buenas prácticas de diseño web.
+- **Siguiente kata:**
+  - Leer sobre lógica de programación (diagramas de flujo y pseudocodigo).
+  - Documentación de JavaScript.
+  - Repasa, repite, prácticar, empaparse de todos lados.
+  - Formarse un criterio propio y estar dispuesto a reaprender.
 
 #### Paths para front end
 
-* [Roadmap.sh](https://roadmap.sh/)
-* [Roadmap Desarrollador Frontend](https://roadmap.sh/frontend)
-* [Roadmap Frontend Performance](https://roadmap.sh/best-practices/frontend-performance)
+- [Roadmap.sh](https://roadmap.sh/)
+- [Roadmap Desarrollador Frontend](https://roadmap.sh/frontend)
+- [Roadmap Frontend Performance](https://roadmap.sh/best-practices/frontend-performance)
 
 ### Recursos y herramientas
 
 ##### Documentación
 
-* [W3Schools](https://www.w3schools.com/).
-* [Mozilla Developer Network](https://developer.mozilla.org/es/).
-* [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
-* [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
-* [SoloLearn.](https://www.sololearn.com/)
-* [TutorialesYa.](https://www.tutorialesprogramacionya.com/)
-* [CSS Handbook](https://fjolt.com/series/learn-css).
+- [W3Schools](https://www.w3schools.com/).
+- [Mozilla Developer Network](https://developer.mozilla.org/es/).
+- [CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
+- [CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/).
+- [SoloLearn.](https://www.sololearn.com/)
+- [TutorialesYa.](https://www.tutorialesprogramacionya.com/)
+- [CSS Handbook](https://fjolt.com/series/learn-css).
 
 ##### Artículos
 
-* [Mejores Prácticas HTML](https://www.freecodecamp.org/news/html-best-practices/).
-* [Como escribir HTML Semántico](https://hackernoon.com/how-to-write-semantic-html-dkq3ulo).
-* [Exploring the Complexities of Width and Height in CSS](https://css-tricks.com/exploring-the-complexities-of-width-and-height-in-css/).
-* [What’s the Difference Between Flexbox and Grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/).
-* [Formatos de colores en CSS](https://www.joshwcomeau.com/css/color-formats/).
-* [Unidades en CSS y accesibilidad](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/).
-* [Josh Comeau CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/).
-* [Kevin Powell CSS remedy](https://www.kevinpowell.co/article/css-remedy/).
-* [Como inspeccionar tu CSS](https://www.kevinpowell.co/article/debug-css-5-devtool-features/).
-* [Kevin Powell&#39;s Newsletter](https://www.kevinpowell.co/newsletter/).
+- [Mejores Prácticas HTML](https://www.freecodecamp.org/news/html-best-practices/).
+- [Como escribir HTML Semántico](https://hackernoon.com/how-to-write-semantic-html-dkq3ulo).
+- [Exploring the Complexities of Width and Height in CSS](https://css-tricks.com/exploring-the-complexities-of-width-and-height-in-css/).
+- [What’s the Difference Between Flexbox and Grid](https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/).
+- [Formatos de colores en CSS](https://www.joshwcomeau.com/css/color-formats/).
+- [Unidades en CSS y accesibilidad](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/).
+- [Josh Comeau CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/).
+- [Kevin Powell CSS remedy](https://www.kevinpowell.co/article/css-remedy/).
+- [Como inspeccionar tu CSS](https://www.kevinpowell.co/article/debug-css-5-devtool-features/).
+- [Kevin Powell&#39;s Newsletter](https://www.kevinpowell.co/newsletter/).
 
 #### Diseñar prototipos de maquetas
 
-* [Figma: ](https://www.figma.com/)Software para prototipos de baja y alta fidelidad.
-* [Canva: ](https://www.canva.com/)Software para hacer diseños o diagramas.
-* [Lucidchart: ](https://www.lucidchart.com/)Software para crear diagramas.
-* [Design Course (juego](https://designcourse.com/app/course/ueye)[)](https://designcourse.com/app/course/ueye): Juego donde se identifican elementos importantes dentro del diseño UI.
-* [Dribbble.com](https://dribbble.com/shots/popular/web-design): Explora tendencias de Diseño Web, Diseño Responsivo, UX/UI.
-* [awwwards.com](https://www.awwwards.com/websites/): Sitio web que reconoce y promueve el talento y esfuerzo de los mejores desarrolladores, diseñadores y agencias web del mundo.
-* [Bëhance](https://www.behance.net/search/projects?search=web%20design&tracking_source=typeahead_search_suggestion): Red para mostrar y descubrir trabajo creativo.
-* [Huemint.com](https://huemint.com/website-1/): Paleta de colores.
-* [Coolors.com](https://coolors.co/): Paleta de colores.
-* [Haikei](https://haikei.app/): Generador de svg’s.
-* [Clippy](https://bennettfeely.com/clippy/): Generador de `clip-path` .
-* [Spline](https://spline.design/): Herramienta de diseño para creación de escenas, materiales y modelos 3D.
+- [Figma: ](https://www.figma.com/)Software para prototipos de baja y alta fidelidad.
+- [Canva: ](https://www.canva.com/)Software para hacer diseños o diagramas.
+- [Lucidchart: ](https://www.lucidchart.com/)Software para crear diagramas.
+- [Design Course (juego](https://designcourse.com/app/course/ueye)[)](https://designcourse.com/app/course/ueye): Juego donde se identifican elementos importantes dentro del diseño UI.
+- [Dribbble.com](https://dribbble.com/shots/popular/web-design): Explora tendencias de Diseño Web, Diseño Responsivo, UX/UI.
+- [awwwards.com](https://www.awwwards.com/websites/): Sitio web que reconoce y promueve el talento y esfuerzo de los mejores desarrolladores, diseñadores y agencias web del mundo.
+- [Bëhance](https://www.behance.net/search/projects?search=web%20design&tracking_source=typeahead_search_suggestion): Red para mostrar y descubrir trabajo creativo.
+- [Huemint.com](https://huemint.com/website-1/): Paleta de colores.
+- [Coolors.com](https://coolors.co/): Paleta de colores.
+- [Haikei](https://haikei.app/): Generador de svg’s.
+- [Clippy](https://bennettfeely.com/clippy/): Generador de `clip-path` .
+- [Spline](https://spline.design/): Herramienta de diseño para creación de escenas, materiales y modelos 3D.
 
 #### Practicar para html/css
 
-* [Frontend Mentor](https://www.frontendmentor.io/): Página con proyectos a realizar en donde se pide resolver problemas reales con HTML, CSS y JavaScript.
-* [CSSBattle](https://cssbattle.dev/): Juego donde se requiere escribir HTML y CSS para replicar una imagen objetivo.
-* [Guía Interactiva de Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/): Al final de esta pagina hay una suscripción al Newsletter de Josh Comeau.
-* [Flexbox Zombies](https://mastery.games/flexboxzombies/).
-* [Juego CSS Flexbox Froggy](https://flexboxfroggy.com/).
-* [Guía Interactiva de CSS Grid](https://fjolt.com/article/a-guide-to-css-grid).
-* [CSS Grid Garden](https://cssgridgarden.com/) (juego).
-* [Using Grid Named Areas to Visualize (and Reference) Your Layout](https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/).
-* [Learn CSS Grid](https://learncssgrid.com/).
+- [Frontend Mentor](https://www.frontendmentor.io/): Página con proyectos a realizar en donde se pide resolver problemas reales con HTML, CSS y JavaScript.
+- [CSSBattle](https://cssbattle.dev/): Juego donde se requiere escribir HTML y CSS para replicar una imagen objetivo.
+- [Guía Interactiva de Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/): Al final de esta pagina hay una suscripción al Newsletter de Josh Comeau.
+- [Flexbox Zombies](https://mastery.games/flexboxzombies/).
+- [Juego CSS Flexbox Froggy](https://flexboxfroggy.com/).
+- [Guía Interactiva de CSS Grid](https://fjolt.com/article/a-guide-to-css-grid).
+- [CSS Grid Garden](https://cssgridgarden.com/) (juego).
+- [Using Grid Named Areas to Visualize (and Reference) Your Layout](https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/).
+- [Learn CSS Grid](https://learncssgrid.com/).
 
 #### Practicar live coding
 
-* [CodePen.](https://codepen.io/)
+- [CodePen.](https://codepen.io/)
 
 #### Prácticar lógica de programación
 
-* [Codewars.](https://www.codewars.com/)
-* [Codesignal.](https://codesignal.com/)
-* [Hacker rank.](https://www.hackerrank.com/)
+- [Codewars.](https://www.codewars.com/)
+- [Codesignal.](https://codesignal.com/)
+- [Hacker rank.](https://www.hackerrank.com/)
 
 #### Otras herramientas online
 
-* [Gitignore generator](https://www.toptal.com/developers/gitignore): Generador de archivos gitignore.
-* [Can I Use](https://caniuse.com/): Provee información actualizada del soporte de los navegadores (desktop y mobile) hacia tecnologías usadas en el Frontend.
+- [Gitignore generator](https://www.toptal.com/developers/gitignore): Generador de archivos gitignore.
+- [Can I Use](https://caniuse.com/): Provee información actualizada del soporte de los navegadores (desktop y mobile) hacia tecnologías usadas en el Frontend.
 
 #### **Redes sociales para estudiar**
 
 ##### Youtube
 
-* [Fazt.](https://www.youtube.com/c/FaztTech)
-* [Absolute.](https://www.youtube.com/c/AbsoluteSite)
-* [MidudeDev](https://www.youtube.com/c/midudev).
-* [Carlos Azaustre.](https://www.youtube.com/c/CarlosAzaustre)
-* [CodelyTV.](https://www.youtube.com/c/CodelyTv)
-* [Música para codear](https://www.youtube.com/c/CodePioneers).
-* [Kevin Powell](https://www.youtube.com/@KevinPowell).
-* [FreeCodeCamp.com](https://www.youtube.com/@freecodecamp).
-* [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified).
-* [DesignCourse](https://www.youtube.com/@DesignCourse).
-* [Wes Bos](https://www.youtube.com/@WesBos).
-* [Figma](https://www.youtube.com/@Figma).
+- [Fazt.](https://www.youtube.com/c/FaztTech)
+- [Absolute.](https://www.youtube.com/c/AbsoluteSite)
+- [MidudeDev](https://www.youtube.com/c/midudev).
+- [Carlos Azaustre.](https://www.youtube.com/c/CarlosAzaustre)
+- [CodelyTV.](https://www.youtube.com/c/CodelyTv)
+- [Música para codear](https://www.youtube.com/c/CodePioneers).
+- [Kevin Powell](https://www.youtube.com/@KevinPowell).
+- [FreeCodeCamp.com](https://www.youtube.com/@freecodecamp).
+- [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified).
+- [DesignCourse](https://www.youtube.com/@DesignCourse).
+- [Wes Bos](https://www.youtube.com/@WesBos).
+- [Figma](https://www.youtube.com/@Figma).
 
 ##### Redes sociales
 
-* [Medium.](https://medium.com/)
-* [Carlos Azaustre.](https://www.instagram.com/carlosazaustre/?hl=es)
-* [Richwebdeveloper](https://www.instagram.com/richwebdeveloper/?hl=es)
-* [Vertechie](https://www.instagram.com/veritechie/?hl=es).
-* [AnnCode](https://www.instagram.com/anncode/?hl=es).
-* [Manz](https://twitter.com/Manz).
-* [Javascript.tips](https://www.instagram.com/javascript.tips/).
-* [webdev_guru](https://www.instagram.com/webdev_guru/).
-* [richwebdeveloper](https://www.instagram.com/richwebdeveloper/).
-* [amaizingfarooqq](https://www.instagram.com/amazingfarooqq/).
-* [webdesignuniversity](https://www.instagram.com/webdesignuniversity/).
-* [faizan.webappdev](https://www.instagram.com/webdesignuniversity/).
-* [sobrecodigo](https://www.instagram.com/sobrecodigo/).
-* [programmers_community_](https://www.instagram.com/programmers_community_/).
-* [Lupita code](https://twitter.com/lupitacode).
+- [Medium.](https://medium.com/)
+- [Carlos Azaustre.](https://www.instagram.com/carlosazaustre/?hl=es)
+- [Richwebdeveloper](https://www.instagram.com/richwebdeveloper/?hl=es)
+- [Vertechie](https://www.instagram.com/veritechie/?hl=es).
+- [AnnCode](https://www.instagram.com/anncode/?hl=es).
+- [Manz](https://twitter.com/Manz).
+- [Javascript.tips](https://www.instagram.com/javascript.tips/).
+- [webdev_guru](https://www.instagram.com/webdev_guru/).
+- [richwebdeveloper](https://www.instagram.com/richwebdeveloper/).
+- [amaizingfarooqq](https://www.instagram.com/amazingfarooqq/).
+- [webdesignuniversity](https://www.instagram.com/webdesignuniversity/).
+- [faizan.webappdev](https://www.instagram.com/webdesignuniversity/).
+- [sobrecodigo](https://www.instagram.com/sobrecodigo/).
+- [programmers*community*](https://www.instagram.com/programmers_community_/).
+- [Lupita code](https://twitter.com/lupitacode).
 
 ##### YouTube Videos
 
-* [5 simples formas para crear plantillas responsivas](https://www.youtube.com/watch?v=VQraviuwbzU)
-* [Introducción al Diseño Web Responsivo](https://www.youtube.com/watch?v=srvUrASNj0s)
-* [Variables en CSS](https://www.youtube.com/watch?v=lgaxU7CRmxU)
-* [10 Conceptos avanzados de diseño responsivo](https://youtu.be/TUD1AWZVgQ8)
-* [Organización de propiedades en CSS](https://youtu.be/3Y03OSNw6zo)
-* [Youtube Shorts Playlist](https://youtube.com/playlist?list=PLaRUOCUDRB68bnvWDDkCuqBz5augfsADH)
+- [5 simples formas para crear plantillas responsivas](https://www.youtube.com/watch?v=VQraviuwbzU)
+- [Introducción al Diseño Web Responsivo](https://www.youtube.com/watch?v=srvUrASNj0s)
+- [Variables en CSS](https://www.youtube.com/watch?v=lgaxU7CRmxU)
+- [10 Conceptos avanzados de diseño responsivo](https://youtu.be/TUD1AWZVgQ8)
+- [Organización de propiedades en CSS](https://youtu.be/3Y03OSNw6zo)
+- [Youtube Shorts Playlist](https://youtube.com/playlist?list=PLaRUOCUDRB68bnvWDDkCuqBz5augfsADH)
 
 ##### TikTok Accounts
 
-* [VSCode](https://www.tiktok.com/@vscode?lang=en).
-* [mydudev](https://www.tiktok.com/@midudev?lang=en).
-* [Wes Bos](https://www.tiktok.com/@wesbos?lang=en).
-* [JavaScript Wizz](https://www.tiktok.com/@javascript_wizz?lang=en).
-* [Kevin Powell](https://www.tiktok.com/@kevinpowellcss?lang=en).
-* [Figma](https://www.tiktok.com/@figmaofficial?lang=en).
+- [VSCode](https://www.tiktok.com/@vscode?lang=en).
+- [mydudev](https://www.tiktok.com/@midudev?lang=en).
+- [Wes Bos](https://www.tiktok.com/@wesbos?lang=en).
+- [JavaScript Wizz](https://www.tiktok.com/@javascript_wizz?lang=en).
+- [Kevin Powell](https://www.tiktok.com/@kevinpowellcss?lang=en).
+- [Figma](https://www.tiktok.com/@figmaofficial?lang=en).
 
 ### Areas de estudio
 
